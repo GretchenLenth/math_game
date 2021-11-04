@@ -24,14 +24,7 @@ aveAttempt = 0
 
 probList = []
 
-
-#Homework 9 
-
-#Implement a tinker-based GUI program for a simple math game. Your program should present randomly generated simple math problems involving addition, subtraction, multiplication, and division of whole numbers. 
-
-#For add, sub, and div, both operands should be non-negative integers should be less than 1000. For multiplication, both should be less than 100. 
-
-#All problems should have positive integer answers. Do not generate problems having negative, floating point, or undefined results.
+#Implements a tinker-based GUI program for a simple math game. All problems have positive integer answers. 
 
 def checkGuess():
     global correctAnswer 
